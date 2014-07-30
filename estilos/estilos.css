@@ -1,0 +1,28 @@
+#tasas [zoom <=9] {
+  polygon-opacity: .8;
+  line-color: #fff;
+  line-width: 0.9;
+	[r_TOT2014 >= 0] { polygon-fill: #bfd3e6; }
+	[r_TOT2014 >= 90.554] { polygon-fill: #9ebcda; }
+	[r_TOT2014 >= 167.32] { polygon-fill: #8c96c6; }
+	[r_TOT2014 >= 263.24] { polygon-fill: #8856a7; }
+	[r_TOT2014 >= 448.15] { polygon-fill: #810f7c; }
+  [zoom <=6]{
+    line-width:0.2;
+      }
+  [zoom =7]{
+    line-width:0.45;
+      }
+
+}
+
+
+#states [zoom <=9]{
+  polygon-fill: transparent;
+  line-color: #fff;
+  line-width:2;
+  polygon-comp-op: hard-light;
+  [zoom <=6]{
+    line-width:1;
+    }
+  }
