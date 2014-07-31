@@ -1,0 +1,3 @@
+<strong>Municipio: {{{NOM_MUN}}}</strong>
+<br>Tasa de averiguaciones previas por el total de homicidios en 2013: {{{HOM2013}}} </br>
+<br>(tasa por 100 mil habitantes)</br>
