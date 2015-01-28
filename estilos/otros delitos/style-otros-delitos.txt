@@ -1,0 +1,39 @@
+/* estilos para tilemill 
+Tasa de otros delitos (clasificación propia) por cada 100 mil habitantes en 2013
+*/
+
+#tasas [zoom <=9] {
+  polygon-opacity: .8;
+  line-color: #b4b4b4;
+  line-width: 0.9;
+	[r_OTR2013 >= 0] { polygon-fill: #fef0d9; }
+	[r_OTR2013 >= 135] { polygon-fill: #fdcc8a; }
+	[r_OTR2013 >= 241] { polygon-fill: #fd8d3c; }
+	[r_OTR2013 >= 408] { polygon-fill: #e34a33; }
+	[r_OTR2013 >= 716] { polygon-fill: #b30000; }
+  [zoom =7]{
+    line-width:0.6;
+      }
+  [zoom =6]{
+    line-width:0.4;
+      }
+  [zoom < 6]{
+    line-width:0.2;
+      }
+
+}
+
+#states [zoom <=9]{
+  polygon-fill: transparent;
+  line-color: #6f6363;
+  line-width: 1;
+  line-join:round;
+  [zoom = 6]{
+    line-width:.8;
+    
+    }
+  [zoom < 6]{
+    line-width:.4;
+    
+    }
+  }
