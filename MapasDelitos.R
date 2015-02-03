@@ -14,8 +14,8 @@ require(R.utils)
 #unlink(temp)
 
 # Utilizar datos desde el archivo gzip para consumir menos memoria
-gunzip("data/fuero-comun-municipios.csv.gz")
-data  <- read.csv("data/fuero-comun-municipios.csv", as.is=T)
+gunzip("incidenciaDelictiva/data/fuero-comun-municipios.csv.gz")
+data  <- read.csv("incidenciaDelictiva/data/fuero-comun-municipios.csv", as.is=T)
 
 
 
