@@ -14,8 +14,9 @@ require(R.utils)
 #unlink(temp)
 
 # Utilizar datos desde el archivo gzip para consumir menos memoria
-gunzip("incidenciaDelictiva/data/fuero-comun-municipios.csv.gz")
-data  <- read.csv("incidenciaDelictiva/data/fuero-comun-municipios.csv", as.is=T)
+#Importante: cambiar ruta del directorio del Micrositio
+gunzip("~/Micrositio/incidenciaDelictiva/data/fuero-comun-municipios.csv.gz")
+data  <- read.csv("~/Micrositio/incidenciaDelictiva/data/fuero-comun-municipios.csv", as.is=T)
 
 
 
